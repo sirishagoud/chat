@@ -73,7 +73,7 @@ recognition.onend=function(){
     mic.style.background="#ff3b3b";
 }
 mic.addEventListener("click", function(){
-    mic.style.background='#39c81f';
+    mic.style.background="#39c81f";
     recognition.start();
     console.log("Activated");
 })
